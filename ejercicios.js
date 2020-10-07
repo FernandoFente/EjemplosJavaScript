@@ -2,7 +2,7 @@ function producto( a, b ){
     return a * b;
 }
 
-var resultado = producto( 2, 5 );
+var resultado = producto( 5, 5 );
 
 document.getElementById("caja").innerHTML = resultado;
 
@@ -16,7 +16,7 @@ function mayor ( a, b ){
     }
 }
 
-var resultado2 = mayor( 100, 100 );
+var resultado2 = mayor( 99, 100 );
 
 function nombre( nombre , apellido ){
     return nombre+ " " + apellido;
