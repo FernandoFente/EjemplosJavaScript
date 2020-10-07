@@ -50,7 +50,7 @@ function calcularDesc( monto, medioPago ){
                 document.getElementById("caja4").innerHTML = "Su monto a pagar con un desc del 10% es = "+resultDesc;
                 break;
             default:
-                document.getElementById("caja4").innerHTML = "Ha ocurrido un error";
+                document.getElementById("caja4").innerHTML = "Seleccione un medio de pago";
         }
     } else {
         let resultado = monto - (monto * 0.4);
