@@ -7,17 +7,41 @@
 </head>
 <body>
     <h2>Ejercicio del producto entre 2 numeros</h2>
-    <div id="caja" style="background-color: blueviolet;"></div>
+    <button onclick="producto()">Hacer multiplicación</button>
+    <div id="caja"></div>
 
     <h2>Ejercicio de mayor menor o igual</h2>
+    <button onclick="mayor()">mayor, menor o igual</button>
     <div id="caja2"></div>
 
     <h2>Ejercicio de concatenar</h2>
     <div id="caja3"></div>
 
     <h2>Ejercicio de descuento</h2>
-    <div id="caja4"></div>
+    <label for="monto">Monto:
+    <input type="number"id="monto"></label>
+    <label for="medioPago">Medio de pago:
+    <select name="medioDePago" id="medioPago">
+        <option value="">--Medio de Pago--</option>
+        <option value="E">Efectivo</option>
+        <option value="D">Tarjeta de Debito</option>
+        <option value="C">Tarjeta de Credito</option>
+    </select></label>
+    <button onclick="calcularDesc()">calcular descuento</button>
+    <br>
+    <br>
+    <div id="caja4" style="background-color: aqua;"></div>
+    <br>
+    <br>
+    <br>
+    <button onclick="button()">Boton para indicar su edad</button>
 
+    <h2>Ejercicio Mayor de edad</h2>
+    <div id="caja5"></div>
+
+    <h2>Nota de examen</h2>
+    <button onclick="button2()">Poner nota</button>
+    <div id="caja6"></div>
 
 
     <script src="ejercicios.js"></script>
