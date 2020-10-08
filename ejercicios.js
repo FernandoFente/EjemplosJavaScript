@@ -1,6 +1,6 @@
 function producto( a, b ){
     a = parseInt(prompt("Indique un numero"));
-    b = parseInt(prompt("Indique un numero"));
+    b = parseInt(prompt("Indique otro numero"));
 
     resultado = a * b;
 
@@ -10,7 +10,7 @@ function producto( a, b ){
 
 function mayor ( a, b ){
     a = parseInt(prompt("escoja un numero"));
-    b = parseInt(prompt("escoja un numero"));
+    b = parseInt(prompt("escoja otro numero"));
 
     if(a > b){
         document.getElementById("caja2").innerHTML = a+" es mayor que "+b;
