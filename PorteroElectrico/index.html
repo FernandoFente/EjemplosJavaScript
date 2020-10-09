@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potero Electrico</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Play&family=Quantico&display=swap" rel="stylesheet"></head>
+<body>
+    <header class="row header mb-5">
+        <div class="subHeader successDark">
+            <h1 class="text-center">Disort Palace</h1>
+        </div>
+    </header>
+
+    <section class="container border border-dark porterito text-center">
+
+        <div class="row alinear mt-3">
+            <div class="col-sm-6">
+                <input type="number" class="cajita" name="piso" id="piso"></input>
+            </div>
+            <div class="col-sm-6">
+                <input type="number" class="cajita" name="depto" id="depto">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4"><button onclick="rellenar('1')" class="btn botonStyle">1</button></div>
+            <div class="col-sm-4"><button onclick="rellenar('2')" class="btn botonStyle">2</button></div>
+            <div class="col-sm-4"><button onclick="rellenar('3')" class="btn botonStyle">3</button></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-4"><button onclick="rellenar('4')" class="btn botonStyle">4</button></div>
+            <div class="col-sm-4"><button onclick="rellenar('5')" class="btn botonStyle">5</button></div>
+            <div class="col-sm-4"><button onclick="rellenar('6')" class="btn botonStyle">6</button></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4"><button onclick="rellenar('7')" class="btn botonStyle">7</button></div>
+            <div class="col-sm-4"><button onclick="rellenar('8')" class="btn botonStyle">8</button></div>
+            <div class="col-sm-4"><button onclick="rellenar('9')" class="btn botonStyle">9</button></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4"><button onclick="rellenar('0')" class="btn botonStyle">0</button></div>
+            <div class="col-sm-4"><button class="btn botonStyle">llamar</button></div>
+            <div class="col-sm-4"><button onclick="borrar()" class="btn botonStyle">borrar</button></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 m-2"><input type="text" name="llamando" id="llamando"></div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="funciones.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
