@@ -56,10 +56,14 @@ h1{
     font-family: 'Quantico', sans-serif;
     font-size: 3em;
     border: 3px solid black;
+    text-align: center;
 }
 
 input[type=text]{
     width: 60%;
+    border: 2px solid #000;
+    font-weight: bold;
+    text-align: center;
 }
 
 
