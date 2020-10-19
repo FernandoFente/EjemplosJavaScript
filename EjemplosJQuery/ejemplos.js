@@ -11,9 +11,7 @@ $("#botonB").click(function(){
 })
 
 $("#botonC").click(function(){
-    $("#cajita").show();
-})
-
-$("#botonD").click(function(){
-    $("body").append("<footer><p>Todos los derechos reservados</p></footer>");
-})
+    $("#cajita").show(2000, function(){
+            $("body").append("<footer><p>Todos los derechos reservados</p></footer>");
+        })
+    });
