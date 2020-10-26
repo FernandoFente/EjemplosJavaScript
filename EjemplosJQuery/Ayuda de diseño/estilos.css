@@ -6,3 +6,7 @@
 .flex{
     display: flex;
 }
+
+.dedito{
+    cursor: pointer;
+}
